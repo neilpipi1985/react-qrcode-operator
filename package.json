@@ -1,0 +1,35 @@
+{
+  "name": "react-qrcode-operator",
+  "version": "4.0.0",
+  "private": true,
+  "scripts": {
+    "start": "SKIP_PREFLIGHT_CHECK=true react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@material-ui/core": "next",
+    "@material-ui/icons": "^4.0.0-beta.0",
+    "clsx": "latest",
+    "prop-types": "^15.7.2",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-dropzone": "^10.1.4",
+    "react-qr-reader": "^2.2.1",
+    "react-scripts": "latest",
+    "xlsx": "^0.14.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
